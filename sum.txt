@@ -1,5 +1,7 @@
 private int sum(int a,int b)
 {
-	
-	return a+b;
+	if (a + b > Interger.MAX){
+          throw new Exception();
+	}	
+	return a + b;
 }

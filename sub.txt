@@ -1,4 +1,8 @@
 private int sub(int a,int b)
 {
+	if(a - b < Interger.Min){
+	 throw new Exception();	
+	}
 	return a-b;
+
 }
