@@ -1,0 +1,4 @@
+private int subx(int a,int b)
+{
+	return a-b;
+}
